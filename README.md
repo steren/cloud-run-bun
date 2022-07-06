@@ -6,15 +6,17 @@ You can package it into a container and run it on Cloud Run, a serverless platfo
 
 ## Deploy to Cloud Run
 
-Clone this repo and run this command:
-
-```
-gcloud run deploy --source .
-```
-
-or click 
+Simply click 
 
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://deploy.cloud.run)
+
+Or clone this repo and run this command:
+
+```
+gcloud run deploy
+```
+
+Both of these commands will build the sources into a container and deploy it to a Cloud Run service
 
 ## Build and run Locally
 
@@ -23,7 +25,7 @@ Build with
 docker build -t bun
 ```
 
-RUn with:
+Run locally with:
 
 ```
 docker run -p8080:8080 bun
