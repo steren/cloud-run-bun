@@ -2,11 +2,11 @@
 
 [Bun](https://bun.sh/) is a fast all-in-one JavaScript runtime.
 
-You package it into a container and run it on Cloud Run, a serverless platform.
+You can package it into a container and run it on Cloud Run, a serverless platform.
 
 ## Deploy to Cloud Run
 
-Run this command:
+Clone this repo and run this command:
 
 ```
 gcloud run deploy --source .
@@ -20,7 +20,7 @@ or click
 
 Build with 
 ```
-docker build -t run
+docker build -t bun
 ```
 
 RUn with:
