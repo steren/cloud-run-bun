@@ -1,3 +1,3 @@
-FROM jarredsumner/bun:edge
+FROM oven/bun:latest
 COPY . .
 ENTRYPOINT ["bun",  "./hello.ts"]
